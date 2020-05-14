@@ -1,1 +1,1 @@
-webpack basic config for my react projects
+Testing webpack capabilities

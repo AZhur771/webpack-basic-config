@@ -1,10 +1,17 @@
-class TestClass {
-  testProperty = "some value";
+import React from "react";
+import ReactDOM from "react-dom";
 
-  testMethod() {
-    console.log("Hi, everyone!");
+class App extends React.Component {
+  render() {
+    return (
+      <header>
+        <h1>{this.props.title}</h1>
+      </header>
+    );
   }
 }
 
-const testClass = new TestClass();
-testClass.testMethod();
+const container = document.getElementById("root");
+const title = "Hello, world!";
+
+ReactDOM.render(<App title={title} />, container);
