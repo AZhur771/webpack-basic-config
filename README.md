@@ -1,1 +1,1 @@
-Testing webpack capabilities
+Simple webpack config for testing purposes
